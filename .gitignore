@@ -9,6 +9,3 @@ bin/
 
 # ignore the obj folder
 obj/
-
-*.csproj
-*.sln

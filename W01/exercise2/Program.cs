@@ -1,11 +1,11 @@
-using System;
+﻿using System;
 
 namespace W01
 {
     class Exercise2
     {
 
-        public static void IfStatements()
+        static void Main(string[] args)
         {
             Console.Write("Enter numer: ");
             string valueFromUser = Console.ReadLine();

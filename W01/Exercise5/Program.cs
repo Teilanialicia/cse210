@@ -1,10 +1,10 @@
-using System.Numerics;
+﻿using System.Numerics;
 
 namespace W01
 {
     class Exercise5
     {
-        public static void Functions()
+        static void Main(string[] args)
         {
             DisplayWelcome();
             DisplayResult(PromptUserName(), SquareNumber(PromptUserNumber()));

@@ -1,11 +1,11 @@
-using System.ComponentModel.Design;
+﻿using System.ComponentModel.Design;
 
 namespace W01
 {
     public class Exercise4
     {
 
-        public static void Lists()
+        static void Main(string[] args)
         {
             Console.WriteLine("Enter a list of numbers, type 0 when finished.");
             int intInput = 5;
@@ -21,10 +21,10 @@ namespace W01
                 {
                     list.Add(intInput);
                 }
-                
+
             }
 
-            int sum  = 0;
+            int sum = 0;
 
             foreach (int listItem in list)
             {

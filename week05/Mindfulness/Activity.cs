@@ -7,12 +7,15 @@ namespace week05
         public string _name { get; set; }
         public string _description { get; set; }
         public int _duration { get; set; }
+        // This is my biggest creative addition. It keeps track of the total amount of time that a user has spent on any given activity
+        public int _totalDuration { get; set; }
 
         public Activity(string name, string description)
         {
             _name = name;
             _description = description;
             _duration = 0;
+            _totalDuration = 0;
         }
 
         public void DisplayStartingMessage()
@@ -28,7 +31,7 @@ namespace week05
         {
             Console.WriteLine($"Well done!!");
             ShowSpinner(3);
-            Console.WriteLine($"\n\nYou have completed another {_duration} seconds of the {_name} Activity");
+            Console.WriteLine($"\n\nYou have completed another {_duration} seconds of the {_name} Activity for a total of {_totalDuration} seconds.");
             ShowSpinner(3);
         }
 

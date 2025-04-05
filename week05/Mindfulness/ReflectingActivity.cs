@@ -29,6 +29,7 @@ namespace week05
             Console.ReadLine();
             ShowBeginCountDown(3);
             DisplayQuestions();
+            _totalDuration = _totalDuration + _duration;
             DisplayEndingMessage();
         }
 

@@ -39,6 +39,8 @@ namespace week05
                 Console.WriteLine("\n\n");
             }
 
+            _totalDuration = _totalDuration + _duration;
+
             DisplayEndingMessage();
         }
     }

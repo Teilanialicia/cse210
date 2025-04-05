@@ -29,6 +29,8 @@ namespace week05
 
             Console.Write($"You listed {responses.Count} items!\n\n");
 
+            _totalDuration = _totalDuration + _duration;
+
             DisplayEndingMessage();
         }
 

@@ -8,17 +8,18 @@
             Video video2 = new Video("How to sing the national anthem", "Some guy", 300);
             Video video3 = new Video("How to come up with good video names", "VideoJames", 601);
 
-            video1.AddComments("I can't believe they did this!", "John");
-            video1.AddComments("I can't believe they did this!", "John");
-            video1.AddComments("I can't believe they did this!", "John");
+            video1.AddComments("This is absolutely mind-blowing!", "Sarah");
+            video1.AddComments("I can't believe they pulled this off!", "David");
+            video1.AddComments("This left me speechless!", "Emily");
 
-            video2.AddComments("Wow, that truly is poggers. Good anthem singing.", "Paul");
-            video2.AddComments("Wow, that truly is poggers. Good anthem singing.", "Paul");
-            video2.AddComments("Wow, that truly is poggers. Good anthem singing.", "Paul");
+            video2.AddComments("That anthem gave me chills! Incredible performance!", "Chris");
+            video2.AddComments("This is legendary! Poggers indeed!", "Alex");
+            video2.AddComments("Amazing vocals! Can't stop watching this!", "Jordan");
 
-            video3.AddComments("I don't think I could come up with enough video names", "Matthew");
-            video3.AddComments("I don't think I could come up with enough video names", "Matthew");
-            video3.AddComments("I don't think I could come up with enough video names", "Matthew");
+            video3.AddComments("Trying to think of more titles, but it's tough!", "Sophie");
+            video3.AddComments("It's hard to come up with names that do this video justice.", "Daniel");
+            video3.AddComments("Running out of ideas for titles, haha!", "Olivia");
+
 
             Console.WriteLine(video1.GetVideoInformation());
             Console.WriteLine(video1.GetAllComments());

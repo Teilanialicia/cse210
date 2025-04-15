@@ -1,0 +1,7 @@
+50`1`83
+SimpleGoal=Go run`Go to the gym and run`50`True
+EternalGoal=Eat healthy`Eat healthy foods like fruits and veggies`30
+ChecklistGoal=5`500`Finish homework`Finish all of my homework for CSE, WDD and career classes`50`0
+SimpleGoal=Test Goal`Test adding another goals`6000`False
+SimpleGoal=Create a new goal`I need to test the auto-save feature to see if it works.`20`False
+EternalGoal=Run`Run fast`5000
